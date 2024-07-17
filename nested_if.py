@@ -2,27 +2,27 @@
 # Task 1: Code Correction & Task 2: Setting the Scene & Task 3: default Path
 
 
-# place = input("Choose a place: forest or cave? ")
+place = input("Choose a place: forest or cave? ")
 
-# if place == "forest":
-#     action = input("climb a tree or cross a river?")
-#     if action == "climb a tree":
-#         print("You found a bird's nest!")
-#     elif action == "cross a river":
-#         print("You found a boat!")
-#     else:
-#         pass
-# elif place == "cave":
-#     print("light a torch or proceed in the dark?")
-#     action = input("light a torch or proceed in the dark?")
-#     if action == "light a torch":
-#         print("Wow, this cave is bigger then I thought!")
-#     elif action == "proceed in the dark":
-#         print("I hope there is nothing in this cave")
-#     else:
-#         pass
-# else:
-#     pass
+if place == "forest":
+    action = input("climb a tree or cross a river?")
+    if action == "climb a tree":
+        print("You found a bird's nest!")
+    elif action == "cross a river":
+        print("You found a boat!")
+    else:
+        pass
+elif place == "cave":
+    print("light a torch or proceed in the dark?")
+    action = input("light a torch or proceed in the dark?")
+    if action == "light a torch":
+        print("Wow, this cave is bigger then I thought!")
+    elif action == "proceed in the dark":
+        print("I hope there is nothing in this cave")
+    else:
+        pass
+else:
+    pass
 
 #---------------#
 
@@ -45,9 +45,11 @@ customer = input("Choose a food type: vegetarian, non-vegetarian? ")
 if customer == "vegetarian":
     recommendation = "Veggie Delight Caterers"
 elif customer == "non-vegetarian":
-    recommendation = "Gourment Meals Caterers"
+    recommendation = "Gourmet Meals Caterers"
 else:
     pass
+
+print("I recommend:", recommendation) 
 
 
 
